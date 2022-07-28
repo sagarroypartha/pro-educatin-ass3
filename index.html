@@ -108,7 +108,7 @@
               
             </div>
             <div class="col-lg-6 col-12 col-md-12 col-sm-12">
-              <div class=" border bg-light d-flex">
+              <div class="card-body border bg-light d-flex">
                 <img src="edTech-website-main/images/course/course-2.png"  class="img-fluid">
                 <div>
                   <h2 class="text-start p-2">Javascript Basic to advanced</h2>
@@ -163,11 +163,44 @@
     <p class="">It is a long established fact that a reader will be distracted by the</br> readable content of a page when looking at its layout.</p></div>
 
     <div class="justify-content-end mt-5">
-      <a href="registar.html"><button type="button" class="btn btn-light fw-bold text-primary ">Register Now</button></a></div>
-    
+      <button type="button" class="btn btn-light fw-bold text-primary " data-bs-target="#mymodel" data-bs-toggle="modal">Register Now</button>
+      
+    </div>
     
     <!-- <div class="justify-content-end"><button type="button" class="btn btn-light fw-bold text-primary ">Register Now</button></div> -->
   
+  </div>
+  <div>
+    <div class="modal fade" id="mymodel">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h3 class="text-primary"> Signup</h3>
+            <button type="button" class="close" data-dismiss="modal"> &times; </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label><i class="fa-solid fa-user"></i>User Name</label>
+                <input type="text" name="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label><i class="fa-solid fa-lock"></i>Password</label>
+                <input type="text" name="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label><i class="fa-solid fa-envelop"></i>E-mail</label>
+                <input type="text" name="" class="form-control">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger justify-content-center" data-dismiss="modal">Signup</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
